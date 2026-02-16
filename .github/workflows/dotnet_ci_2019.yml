@@ -2,7 +2,8 @@ name: CI enable for .Net 6.0 with VS2019
 
 on:
   push:
-    workflow_dispatch:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
